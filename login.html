@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+
+    <!--link for css file--> 
+    <link rel="stylesheet" href="css/login.css">
+    <!--link for css file--> 
+
+    <!--library-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--library-->
+
+    <!--google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika&display=swap">
+    <!--google fonts-->
+
+</head>
+<body>
+<!--header--> 
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="image/logo.png">
+        </a>
+
+        <!--nav bar-->
+
+        <nav class="headbar">
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="doc.html">Doctors</a>
+            <a href="medicine.html">Medicine</a>
+            <a href="#service">Service</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <!--nav bar-->
+
+        <div class="menubtn">
+            <button>HELPLINE</button>
+        </div>
+
+    </header>
+<!--header-->
+<!--form-->
+<div class="container" id="container">
+<!--sign up-->
+    <div class="form sign-up-container">
+        <form action="#">
+            <h1>Create An Account</h1>
+            <!--icons-->
+            <div class="social-container">
+                <a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#" class="social"><i class="fa fa-google-plus-official" aria-hidden="true"></i></a>
+                <a href="#" class="social"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+            <!--icons-->
+            <span>or use your email for registration</span>
+            <!--input field-->
+            <div class="input-field">
+                <i class="fa fa-user"></i>
+                <input type="text" placeholder="Username">
+            </div>
+            <div class="input-field">
+                <i class="fa fa-envelope"></i>
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="input-field">
+                <i class="fa fa-lock"></i>
+                <input type="password" placeholder="Password">
+            </div>
+            <!--input field-->
+            <button>Sign Up</button>
+        </form>
+    </div>
+    <!--sign up-->
+
+    <!--sign in-->
+    <div class="form sign-in-container">
+        <form action="#">
+            <h1>Login</h1>
+
+            <!--icons-->
+            <div class="social-container">
+                <a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#" class="social"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a href="#" class="social"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+            <!--icons-->
+
+            <span>or use your account</span>
+
+            <!--input field-->
+            <div class="input-field">
+                <i class="fa fa-user"></i>
+                <input type="text" placeholder="Username">
+            </div>
+
+            <div class="input-field">
+                <i class="fa fa-lock"></i>
+                <input type="password" placeholder="Password">
+            </div>
+            <!--input field-->
+            <a href="#">Forgot your password</a>
+            <button>Sign In</button>
+        </form>
+    </div>
+    <!--sign in-->
+
+    <!--overlay-->
+    <div class="overlay-container">
+        <div class="overlay">
+            <div class="overlay-panel overlay-left">
+                <h1>Welcome Back!</h1>
+                <p>To keep connected with us please login with your personal info</p>
+                <img src="image/w2.png" style="height: 25rem; width: 30rem; padding-top: 5%;">
+                <button class="btn" id="signin">Sign in</button>
+            </div> 
+
+            <div class="overlay-panel overlay-right">
+                <h1>Hello User!</h1>
+                <p>Enter your personal details and start your journey with us</p>
+                <img src="image/w3.png" style="height: 25rem; width: 30rem;">
+                <button class="btn" id="signUp">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <!--overlay-->
+</div>
+<!--form-->
+<footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <a href="index.html"><span>pharma</span>Store</a>
+        <div class="footer-social">
+          <a href="#"><i class="fa fa-facebook-f"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <strong>Catalog</strong>
+        <ul>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Packages</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">New</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <strong>Category</strong>
+        <ul>
+          <li><a href="#">Allergy</a></li>
+          <li><a href="#">Tablets</a></li>
+          <li><a href="#">Kids</a></li>
+          <li><a href="#">Pets</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <strong>Contacts</strong>
+        <ul>
+          <li><a href="tel:+994513478317">Phone: +994 51 347 83 17</a></li>
+          <li><a href="mailto:sedaelekberova17@gmail.com">Email: sedaelekberova17@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-section contact-form">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+          <input type="email" name="email" class="text-input contact-input" placeholder="Your email address">
+          <textarea name="message" class="text-input contact-input" placeholder="Your message"></textarea>
+          <button type="submit" class="btn btn-big contact-btn">
+            <i class="fa fa-envelope"></i>
+            <span>Send</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </footer>
+<script>
+const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signin');
+const container = document.getElementById('container');
+
+signUpButton.addEventListener('click', () =>{
+    container.classList.add("right-panel-active");
+
+});
+
+signInButton.addEventListener('click', () =>{
+    container.classList.remove("right-panel-active");
+
+});
+</script>
+
+</body>
+</html>
